@@ -9,7 +9,7 @@ spec:
     - ReadWriteOnce
   storageClassName: nfs-storage
   nfs:
-    server: 10.0.0.135
+    server: 10.0.0.134
     path: /data/app1/keycloak
 ---
 apiVersion: v1
@@ -36,7 +36,7 @@ spec:
     - ReadWriteOnce
   storageClassName: nfs-storage
   nfs:
-    server: 10.0.0.135
+    server: 10.0.0.134
     path: /data/app1/postgresql
 ---
 apiVersion: v1
